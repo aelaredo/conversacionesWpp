@@ -1,7 +1,4 @@
 import re
-from app import parse_whatsapp_chat
-from wordCloud import generate_word_cloud
-from analisis import analyze_sentiment
 
 def parse_whatsapp_chat(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
