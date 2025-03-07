@@ -18,6 +18,3 @@ def analyze_sentiment(messages, author=None):
         print(f'Mensaje: {msg}')
         print(f'Sentimiento: {result["label"]}, Confianza: {result["score"]:.2f}')
         print('---')
-
-# Ejemplo de uso
-analyze_sentiment(messages, author='Tu Novia')
