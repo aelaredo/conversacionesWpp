@@ -20,6 +20,4 @@ def generate_word_cloud(messages, author=None):
     plt.axis('off')
     plt.show()
 
-# Ejemplo de uso
-generate_word_cloud(messages, author='Tu Novia')
 
