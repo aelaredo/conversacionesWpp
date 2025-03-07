@@ -2,7 +2,7 @@ import re
 
 def parse_whatsapp_chat(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
+        lines = file.getvalue().decode("utf-8").split("\n")
 
     messages = []
     for line in lines:
