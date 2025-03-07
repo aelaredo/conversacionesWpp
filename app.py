@@ -14,7 +14,5 @@ def parse_whatsapp_chat(file_path):
 
     return messages
 
-# Ejemplo de uso
-file_path = 'chat.txt'
-messages = parse_whatsapp_chat(file_path)
+
 
