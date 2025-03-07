@@ -1,4 +1,7 @@
 import streamlit as st
+from app import parse_whatsapp_chat
+from wordCloud import generate_word_cloud
+from analisis import analyze_sentiment
 
 def main():
     st.title('Análisis de Conversaciones de WhatsApp')
